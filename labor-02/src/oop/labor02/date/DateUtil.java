@@ -25,7 +25,6 @@ public class DateUtil {
             default:
                 maxDaysInMonth = 31;
         }
-
         return date.getDay() <= maxDaysInMonth;
     }
 

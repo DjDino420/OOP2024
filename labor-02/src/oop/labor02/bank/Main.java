@@ -1,19 +1,19 @@
 package oop.labor02.bank;
 
 import oop.labor02.bank.BankAccount;
-import oop.labor02.rectangle.Rectangle;
 
 import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("labor02");
-
-        for (int i = 0; i < 10; i++) {
-
-        }
-        BankAccount OTP0 = new BankAccount("OTP1");
         Random rand = new Random();
+        for (int i = 0; i < 10; i++) {
+            BankAccount account=new BankAccount("OTP"+i);
+            account.deposit(1+rand.nextDouble(100));
+        }
+        new BankAccount("OTP1");
+
         double total=0;
 
         for (int i = 0; i < 10; i++) {
@@ -28,8 +28,5 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.println(OTP[i].getBalance());
         }
-
-
-
     }
 }

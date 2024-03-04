@@ -1,4 +1,4 @@
-package oop.labor02.bank;
+package lab3_01;
 
 public class BankAccount {
     //attributes:
@@ -23,6 +23,9 @@ public class BankAccount {
             return true;
     }
     public String toString() {
-        return "ez egy bankszamla: "+accountNumber+", egyenleg: "+balance;
+        return "Account number: "+accountNumber+"\n"+balance;
     }
+    /*public String getAccountNumber() {
+        return this.accountNumber();
+    }*/
 }
