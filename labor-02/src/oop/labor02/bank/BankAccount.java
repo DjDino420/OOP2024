@@ -22,6 +22,9 @@ public class BankAccount {
         else
             return true;
     }
+    public String toString() {
+        return String.format("OTP%s (%d)");
+    }
     /*public String getAccountNumber() {
         return this.accountNumber();
     }*/
