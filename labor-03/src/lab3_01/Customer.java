@@ -14,7 +14,11 @@ public class Customer {
     }
     @Override
     public String toString(){
-        return "Nev: "+firstName+" "+lastName;
+        String customerInfo = "Nev: " + firstName + " " + lastName;
+        if (account != null) {
+            customerInfo += "\nAccount: " + account.getAccountNumber();
+        }
+        return customerInfo;
     }
     public BankAccount getAccount(){
         return this.account;

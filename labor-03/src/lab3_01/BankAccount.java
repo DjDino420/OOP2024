@@ -25,7 +25,7 @@ public class BankAccount {
     public String toString() {
         return "Account number: "+accountNumber+"\n"+balance;
     }
-    /*public String getAccountNumber() {
-        return this.accountNumber();
-    }*/
+    public String getAccountNumber() {
+        return this.accountNumber;
+    }
 }
