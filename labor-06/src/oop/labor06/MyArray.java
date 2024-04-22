@@ -1,4 +1,4 @@
-package labor04;
+package oop.labor06;
 
 import java.util.Random;
 
