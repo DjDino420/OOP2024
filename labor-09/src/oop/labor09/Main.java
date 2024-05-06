@@ -2,6 +2,7 @@ package oop.labor09;
 
 import queue.IQueue;
 import queue.ArrayListQueue;
+import queue.CircularQueue;
 public class Main {
     public static void main(String[] args) {
         IQueue q1 = new ArrayListQueue(5);

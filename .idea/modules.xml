@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2022.Oop.iml" filepath="$PROJECT_DIR$/.idea/2022.Oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labor-09/hazi/hazi.iml" filepath="$PROJECT_DIR$/labor-09/hazi/hazi.iml" />
       <module fileurl="file://$PROJECT_DIR$/labor-01/labor-01.iml" filepath="$PROJECT_DIR$/labor-01/labor-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/labor-02/labor-02.iml" filepath="$PROJECT_DIR$/labor-02/labor-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/labor-03/labor-03.iml" filepath="$PROJECT_DIR$/labor-03/labor-03.iml" />
@@ -17,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/labor-12/labor-12.iml" filepath="$PROJECT_DIR$/labor-12/labor-12.iml" />
       <module fileurl="file://$PROJECT_DIR$/labor-13/labor-13.iml" filepath="$PROJECT_DIR$/labor-13/labor-13.iml" />
       <module fileurl="file://$PROJECT_DIR$/labor-14/labor-14.iml" filepath="$PROJECT_DIR$/labor-14/labor-14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labor-10/src2/src2.iml" filepath="$PROJECT_DIR$/labor-10/src2/src2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labor-10/src3/src3.iml" filepath="$PROJECT_DIR$/labor-10/src3/src3.iml" />
     </modules>
   </component>
 </project>
